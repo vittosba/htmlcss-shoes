@@ -1,0 +1,43 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* FULL SECTION */
+
+.full-section {
+    position: relative;
+    height: 100vh;
+}
+
+.full-section .content {
+    position: absolute;
+    width: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.full-section .content img {
+    display: block;
+    width: 100%;
+}
+
+#first-image {
+    background: red;
+    color: yellow;
+}
+
+#second-image {
+    background: green;
+    color: yellow;
+}
+
+#third-image {
+    background: yellow;
+    color: green;
+}
